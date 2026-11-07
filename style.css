@@ -887,3 +887,11 @@ body{font-family:'Cairo',Tahoma,Arial,sans-serif!important}
 .milo-loading-mark.milo-icon-brand {border-radius:18px!important}
 #installAppButton:not([hidden]) {display:inline-flex;align-items:center;justify-content:center;white-space:nowrap;min-height:36px;border-color:#9dd8d1;color:#00786f;background:#eaf8f5;font-weight:800}
 @media(max-width:720px){#installAppButton:not([hidden]){font-size:10px;min-height:32px;padding:6px 9px}}
+
+/* MILO desktop PWA installation CTA, visible even before login */
+.milo-install-login{margin:18px 0 12px;padding:14px;border:1px solid #cbe2e1;background:#f1fbfa;border-radius:15px;text-align:center}
+.milo-install-login-btn{display:flex;align-items:center;justify-content:center;gap:10px;width:100%;min-height:48px;padding:12px 16px;border:0;border-radius:10px;background:#087f7a;color:#fff;font-family:inherit;font-size:15px;font-weight:800;cursor:pointer;transition:background .18s ease}
+.milo-install-login-btn:hover,.milo-install-login-btn:focus-visible{background:#056762}
+.milo-install-login-btn span{font-size:23px;line-height:1}
+.milo-install-login p{font-size:12px;line-height:1.8;color:#516b6a;margin:9px 0 0}
+.milo-install-login[hidden]{display:none!important}

@@ -32,7 +32,7 @@
   <script defer src="offline-sync.js"></script>
   <script defer src="milo-bridge.js?v=363"></script>
   <script defer src="app.js?v=13"></script>
-  <script defer src="pwa.js?v=17"></script>
+  <script defer src="pwa.js?v=18"></script>
   <script defer src="direct-print.js?v=362"></script>
 </head>
 <body data-initial-page="sale">
@@ -78,6 +78,10 @@
         <label>كلمة المرور<input id="loginPass" name="password" class="input" type="password" autocomplete="current-password" required placeholder="كلمة المرور"></label>
         <button id="loginBtn" class="btn primary block" type="submit">الدخول إلى لوحة التحكم <span>←</span></button>
       </form>
+      <div class="milo-install-login" id="miloInstallLogin">
+        <button type="button" class="milo-install-login-btn" id="installAppLoginButton" aria-label="تحميل وتثبيت كاشير ميلو كتطبيق على الجهاز"><span aria-hidden="true">↓</span> تحميل تطبيق ميلو كاشير</button>
+        <p>ثبّت الكاشير من المتصفح على سطح المكتب بأيقونته الخاصة، دون تحميل ملف EXE.</p>
+      </div>
       <div id="loginError" class="error-text" role="alert"></div>
       <p class="small-note">يجب توفر اتصال فعلي بالخادم. لا تحفظ الواجهة كلمات المرور على الجهاز.</p>
       <div class="login-bottom">MILO CASHIER · صُنع في السعودية</div>
